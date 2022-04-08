@@ -13,7 +13,7 @@ const Navbar = () => {
     //  Nav bar color bg
     <div className="fixed w-full h-[110px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <div>
-        <img src={Logo} style={{ width: "80px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "80px" }} />
       </div>
 
       {/* Menu */}
@@ -107,7 +107,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              // href="/"
+              href="javascript:void(0);"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -115,8 +115,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
             <a
               className="flex justify-between items-center w-full text-gray-300"
+              href="javascript:void(0);"
               // href="../assets/CV.pdf"
-              download="CV.pdf"
+              // download="CV.pdf"
             >
               CV <BsFillPersonLinesFill size={30} />
             </a>
