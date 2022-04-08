@@ -13,7 +13,7 @@ const Navbar = () => {
     //  Nav bar color bg
     <div className="fixed w-full h-[110px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "80px" }} />
+        <img src={Logo} style={{ width: "80px" }} />
       </div>
 
       {/* Menu */}
