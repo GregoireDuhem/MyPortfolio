@@ -32,7 +32,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <Logo />
+      {/* <Logo /> */}
     </div>
   );
 };
