@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import Logo from "./Animation/index";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      <Logo />
     </div>
   );
 };
