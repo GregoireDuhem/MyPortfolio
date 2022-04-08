@@ -1,6 +1,4 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
 import redditproject from "../assets/redditproject.jpeg";
 import areaproject from "../assets/areaproject.png";
 import sidekickproject from "../assets/sidekickproject.png";
@@ -32,7 +30,7 @@ const Work = () => {
                 Reddit like app
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>
@@ -58,7 +56,7 @@ const Work = () => {
                 Area (IFTTT)
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>
@@ -84,12 +82,12 @@ const Work = () => {
                 Sport mobile app
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/GregoireDuhem/Sidekick-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -110,12 +108,12 @@ const Work = () => {
                 Dashboard
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/GregoireDuhem/Dashboard-Epitech">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -136,12 +134,12 @@ const Work = () => {
                 Bomberman in CPP
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>
                 </a>
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -162,7 +160,7 @@ const Work = () => {
                 RPG in C
               </span>
               <div className="pt-8 text-center">
-                <a href="">
+                <a href="#/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     [Work in progress]
                   </button>

@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.21f92e46.css",
-    "main.js": "/static/js/main.93b59e9f.js",
+    "main.js": "/static/js/main.b97fb0e5.js",
     "static/media/rpgproject.png": "/static/media/rpgproject.96bb328d05c4c619bbdc.png",
-    "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/areaproject.png": "/static/media/areaproject.b02e9a3197e0f0fdf6ef.png",
     "static/media/redditproject.jpeg": "/static/media/redditproject.fbf9f2283292596fdabf.jpeg",
     "static/media/logo.png": "/static/media/logo.42d35c9430abe64acb29.png",
     "static/media/sidekickproject.png": "/static/media/sidekickproject.e610b738e0cf27a971e4.png",
     "static/media/bomberman.gif": "/static/media/bomberman.d8148c9ee36a0752f159.gif",
-    "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/ReactNative.png": "/static/media/ReactNative.878635d1e18687a0a2ef.png",
     "static/media/Nodejs.png": "/static/media/Nodejs.c2e22c634a7336cbe298.png",
     "static/media/Python.png": "/static/media/Python.2e65c2b73eddaaf97e06.png",
@@ -20,10 +18,10 @@
     "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "index.html": "/index.html",
     "main.21f92e46.css.map": "/static/css/main.21f92e46.css.map",
-    "main.93b59e9f.js.map": "/static/js/main.93b59e9f.js.map"
+    "main.b97fb0e5.js.map": "/static/js/main.b97fb0e5.js.map"
   },
   "entrypoints": [
     "static/css/main.21f92e46.css",
-    "static/js/main.93b59e9f.js"
+    "static/js/main.b97fb0e5.js"
   ]
 }

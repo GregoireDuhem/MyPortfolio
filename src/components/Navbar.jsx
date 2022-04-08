@@ -107,7 +107,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="javascript:void(0);"
+              href="#/"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -115,7 +115,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="javascript:void(0);"
+              href="#/"
               // href="../assets/CV.pdf"
               // download="CV.pdf"
             >
