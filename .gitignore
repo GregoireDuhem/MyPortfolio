@@ -2,6 +2,5 @@ node_modules
 .yarn
 build
 config
-public
 scripts
 .DS_Store
