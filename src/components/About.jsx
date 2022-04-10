@@ -20,12 +20,14 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about : Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book.
+              I am passionate about new technologies, the developpement, sport,
+              mangas and gaming.
             </p>
+            <p>
+              In my fourth year in Epitech I'll be going to Keimyung an Gaming
+              University in Korea.
+            </p>
+            <p> I have a great interest in UI UX.</p>
           </div>
         </div>
       </div>
