@@ -1,5 +1,7 @@
 # Greg's Portfolio
 
+![Home](https://github.com/GregoireDuhem/MyPortfolio/blob/main/src/assets/Record.gif)
+
 In the project directory, you can run:
 
 ### `npm install`
