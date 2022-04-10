@@ -1,4 +1,5 @@
-import React from "react";
+import { React } from "react";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   return (
@@ -11,11 +12,11 @@ const Contact = () => {
         action="https://getform.io/f/5c230a30-cf72-4758-867e-5b7518822e61"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        <div data-aos="fade-right" className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#FF4D4D] text-gray-300">
             Contact
           </p>
-          <p className=" text-gray-300 py-4">
+          <p data-aos="fade-right" className=" text-gray-300 py-4">
             Submit the form below or shoot me an email :
             gregoire.duhem@outlook.fr
           </p>

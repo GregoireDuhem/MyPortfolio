@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/GD2.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -11,9 +11,11 @@ const Navbar = () => {
 
   return (
     //  Nav bar color bg
-    <div className="fixed w-full h-[110px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo" style={{ width: "80px" }} />
+        <Link to="home" smooth={true} duration={500}>
+          <img src={Logo} alt="Logo" style={{ width: "80px" }} />
+        </Link>
       </div>
 
       {/* Menu */}
@@ -36,6 +38,11 @@ const Navbar = () => {
         <li>
           <Link to="works" smooth={true} duration={500}>
             Works
+          </Link>
+        </li>
+        <li>
+          <Link to="Passions" smooth={true} duration={500}>
+            Passions
           </Link>
         </li>
         <li>
@@ -76,6 +83,16 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="works" smooth={true} duration={500}>
             Works
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link
+            onClick={handleClick}
+            to="Passions"
+            smooth={true}
+            duration={500}
+          >
+            Passions
           </Link>
         </li>
         <li className="py-6 text-4xl">
