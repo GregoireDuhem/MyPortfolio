@@ -10,6 +10,14 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  const Mailto = ({ email, subject = "", body = "", children }) => {
+    let params = subject || body ? "?" : "";
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? "&" : ""}body=${encodeURIComponent(body)}`;
+
+    return <a href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     //  Nav bar color bg
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
@@ -127,7 +135,10 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="#/"
             >
-              Email <HiOutlineMail size={30} />
+              <Mailto email="gregoire.duhem@outlook.fr" subject="" body="">
+                Email
+              </Mailto>
+              <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
