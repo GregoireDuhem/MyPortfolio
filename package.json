@@ -5,6 +5,8 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
+    "@react-three/drei": "^9.4.2",
+    "@react-three/fiber": "^8.0.10",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -21,6 +23,7 @@
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.6",
     "sass": "^1.50.0",
+    "three": "^0.139.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
