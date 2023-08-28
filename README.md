@@ -1,6 +1,6 @@
 # Greg's Portfolio
 
-https://gregoireduhem.netlify.app
+# Portfolio link : https://gregoireduhem.netlify.app
 
 ![Home](https://github.com/GregoireDuhem/MyPortfolio/blob/main/src/assets/Record.gif)
 
