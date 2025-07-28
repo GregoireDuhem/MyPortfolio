@@ -2,7 +2,7 @@
 
 # Portfolio link : https://gregoireduhem.netlify.app
 
-![Home](https://github.com/GregoireDuhem/MyPortfolio/blob/main/src/assets/Record.gif)
+
 
 In the project directory, you can run:
 
